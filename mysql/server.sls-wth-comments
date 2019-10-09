@@ -1,0 +1,3 @@
+mysql_server_install:		### Set the name declaration.
+  pkg.installed:		### Call the state Module
+    - name: mariadb-server	### Parameter for installation
